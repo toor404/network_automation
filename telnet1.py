@@ -1,6 +1,7 @@
 import getpass
 import sys
 import telnetlib
+import subprocess
 
 HOST = "192.168.122.3"
 user = raw_input("Enter your telnet username: ")
